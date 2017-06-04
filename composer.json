@@ -1,0 +1,34 @@
+{
+    "name": "rxsaude/woocommerce-webhook-listener",
+    "description": "Woocommerce Webhook Listener plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "woocommerce", "webhook"],
+    "homepage": "https://github.com/rxsaude/woocommerce-webhook-listener",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alysson Azevedo",
+            "homepage": "http://rxsaude.com.br",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "cakephp/cakephp": ">=3.3.2 <4.0.0"
+    },
+    "require-dev": {
+        "cakephp/cakephp-codesniffer": "^3.0",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wwl\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wwl\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}

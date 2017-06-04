@@ -17,9 +17,6 @@
 /logs/*
 !/logs/empty
 
-# CakePHP 2
-
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+/composer.lock
+/phpunit.xml
+/phpcs.xml
